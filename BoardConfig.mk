@@ -40,6 +40,9 @@ TARGET_PREBUILT_KERNEL := device/htc/marvel/prebuilt/kernel
 # Graphics goes here
 BOARD_EGL_CFG := device/htc/marvel/files/egl.cfg
 
+BOARD_NO_RGBX_8888 := true
+TARGET_LIBAGL_USE_GRALLOC_COPYBITS := true
+
 # Recovery Portion 
 
 BOARD_HAS_NO_SELECT_BUTTON := true
